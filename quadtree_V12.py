@@ -105,7 +105,6 @@ class QuadTree:
             return True
         else:
             self.subdivide()
-            # Insert the current point into the new children
             return self.insert(point)
 
     
